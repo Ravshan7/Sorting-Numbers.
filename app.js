@@ -4,7 +4,6 @@ function random() {
 }
 
 function min(arr, idx) {
-    debugger
     let min = arr[idx]
     let index = idx
     for (let i = idx + 1; i < arr.length; i++) {
@@ -17,7 +16,6 @@ function min(arr, idx) {
 }
 
 function swap(arr, i, min) {
-    debugger
     let c = arr[min] 
     arr[min] = arr[i]
     arr[i] = c
@@ -29,7 +27,6 @@ console.log(array);
 
 
 for (let i = 0; i < array.length; i++) {
-    debugger
     let minArr = min(array, i)
     swap(array, i, minArr)
 }
